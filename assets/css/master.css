@@ -1,0 +1,564 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif ,'Work Sans', sans-serif;
+}
+:root {
+    scroll-behavior: smooth;
+    --main-color :#23B5F1;
+    --two-color : #ff52a4;
+}
+img {
+    width: 100%;
+}
+.rate-item li {
+    display: inline-block;
+    padding: 5px;
+}
+.rate-item li i {
+    color: var(--main-color);
+}
+.btn-main {
+    background-color: var(--main-color);
+    color: #fff;
+    width: fit-content;
+    font-size: 16px;
+}
+
+.btn-main:hover ,
+.btn-main:focus{
+    color: #fff;
+}
+.btn-two{
+    background-color: var(--two-color);
+    border: 1px solid #ccc;
+    color: #fff;
+}
+.btn-two a ,
+.btn-two a:hover,
+.btn-two a,
+.btn-main:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.section {
+    padding: 60px 0;
+}
+.section .section-title {
+    text-align: center;
+}
+.section .section-title h3 {
+    font-weight: 800;
+    position: relative;
+
+}
+.section .section-title img{
+    width: auto !important;
+    margin-bottom: 20px;
+
+}
+.section .section-title p {
+    font-size: 18px;
+    color: #888;
+    line-height: 1.8;
+}
+/*START HEADER SECTION*/
+header{
+    background-color: #EBEBEB;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+nav {
+    background-color: #EBEBEB !important;
+    z-index: 19999;
+}
+.navbar-brand {
+    width: 100px;
+    height: 100px;
+}
+.navbar-light .navbar-nav .nav-link ,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link :focus{
+    font-weight: bold;
+    color: #222;
+}
+
+nav .login .btn-card{
+    background-color: #F6F8FC;
+    border: 1px solid #ccc;
+}
+header .slide {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    
+}
+header .slide .intro-text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.intro-text h1 {
+    color: var(--main-color);
+}
+.intro-text form  {
+    position: relative;
+    margin: 20px 0;
+    width: 250px;
+}
+.intro-text form span {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    right: 10px;
+    cursor: pointer;
+}
+.intro-text form span i {
+    transform: rotate(90deg);
+    color:var(--main-color);
+}
+.intro-text .socai {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.intro-text .socail li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+.intro-text .socail li i {
+    color: var(--main-color);
+    font-size: 25px;
+}
+/*END HEADER SECTION*/
+/*START ABOUT SECTION IN PAGE*/
+.about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*END ABOUT SECTION IN PAGE*/
+/*START FEATURES SECTION*/
+.features {
+    background-color: #f9f9f9;
+}
+
+.features .feat img{
+    width: auto !important;
+}
+.features .feat{
+    margin-top: 20px;
+}
+.features .feat p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #777;
+}
+/*END FEATURES SECTION*/
+/*START SKILLS SECTION*/
+.skill {
+    position: relative;
+}
+.skill  .owl-carousel,
+.skill  .owl-carousel.owl-loaded,
+.testmonail  .owl-carousel,
+.testmonail  .owl-carousel.owl-loaded
+ {
+    display: -webkit-box;
+    overflow: hidden;
+}
+.skill .owl-carousel .owl-stage-outer {
+    margin: 40px 0 20px;
+}
+.skill .owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+.skill .owl-theme .owl-nav {
+    display: block;
+    top: 35%;
+    background: #f9f9f9;
+}
+.skill .owl-carousel .owl-nav button.owl-next,
+.skill .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    background-color: #fff;
+    font-size: 38px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+.skill .owl-carousel .owl-nav button.owl-next:hover,
+.skill .owl-carousel .owl-nav button.owl-prev:hover{
+    color: var(--main-color);
+}
+.skill .owl-carousel .owl-nav button.owl-next {
+    left: -11px;
+}
+.skill .owl-carousel .owl-nav button.owl-prev{
+    right: -11px;
+}
+.skill .skill-text {
+    background-color: #F6F8FC;
+    padding: 10px 20px;
+    margin: 0 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.skill .skill-text img {
+    border-radius: 10px;
+    height: 204px;
+}
+.skill .skill-text .skill-title {
+    margin-top: 20px;
+}
+.skill .btn-card {
+    background-color: var(--two-color);
+}
+.skill .btn-card a {
+    text-decoration: none;
+    color: #fff;
+}
+.skill .btn-card i {
+    color: #fff;
+}
+.skill .skill-boot{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.skill .btn-main {
+    margin: 0px auto;
+    display: block;
+}
+.skill .btn-main a {
+     color: #fff;
+     text-decoration: none;
+}
+/*END SKILLS SECTION*/
+/*START TESTMONAIL SECTION*/
+.testmonail {
+    background-image: url(../img/psd_09.png);
+    background-size: cover;
+    position: relative;
+}
+.testmonail .test-text {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px #999, 0px 2px 0px #aaa;
+    padding: 20px;
+    margin: 70px auto;
+    width: 770px;
+}
+.testmonail .test-text .test-box {
+    display: flex;
+    align-items: center;
+}
+@media (max-width:676px) {
+    .testmonail .test-text {
+        width: 100%;
+        padding: 15px ;
+    }
+    .testmonail .test-text .test-box {
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }  
+    .testmonail .test-box .box-text {
+        margin-top: 20px;
+    }
+}
+.testmonail .test-text .box-img {
+    width: 50%;
+    margin-right: 10px;
+    text-align: center;
+}
+.testmonail .test-box img {
+    height: 400px;
+}
+.testmonail .owl-theme .owl-nav {
+    display: none;
+}
+.testmonail .owl-theme .owl-dots  {
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+}
+/*END SECTION TESTMONAIL*/
+/*START SECTION COUNTER*/
+.counter {
+    background-image: url(../img/skill-3.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.counter .overlay {
+    background-color: rgb(0 0 0 / 83%);
+}
+.counter .counter-box{
+    color: #fff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:767px) {
+    .counter .counter-box {
+        padding: 20px !important;
+    }
+}
+.counter .counter-box .counter-head {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+.counter .counter-box  h3{
+    color: #f7ec04;
+}
+.counter .counter-box .counter-head i {
+    margin-left: 5%;
+}
+@media (max-width:767px) {
+    .counter .counter-box {
+        margin-bottom: 20px;
+    }
+    .counter .counter-box .counter-head {
+        font-size: 30px;
+    }
+    .counter .counter-box .counter-head i {
+        margin-left: 25%;
+    }
+}
+/*END SECTION COUNTER*/
+/*START FOOTER*/
+footer  {
+    background-color: #EBEBEB;
+}
+footer .main-items ,
+footer .follow,
+footer  .contact{
+    position: relative; 
+}
+footer .main-items::after ,
+footer .follow::after ,
+footer  .contact::after{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    height: 100%;
+    width: 1px;
+    top: 0;
+    left: -10px;
+}
+@media (max-width:767px) {
+    footer .row {
+        flex-direction: column-reverse;
+    }
+    footer .main-items::after ,
+    footer .follow::after ,
+    footer  .contact::after{
+    width: 0;
+    height: 0;
+    }
+}
+footer h6 {
+    position: relative;
+}
+footer h6::after {
+    content: "";
+    background: #222;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    right: 1px;
+    bottom: -10px;
+}
+footer .main-items ul {
+    margin-top: 20px;
+}
+footer .socail {
+    margin-top: 40px;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+footer .socail li{
+    display: inline-block;
+    padding-right: 10px;
+}
+footer .main-items li {
+    padding-bottom: 10px;
+}
+footer .main-items li a{
+    text-decoration: none;
+    color:#666;
+}
+footer .main-items li i,
+footer .socail li a {
+    color: var(--main-color);
+}
+footer  p {
+    margin-top: 20px !important;
+}
+footer span {
+    font-weight: bold;
+    color: #000;
+
+}
+
+/*END FOOTER*/
+.bottom {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+  
+}
+.bottom .row {
+    align-items: center;
+
+}
+.bottom .pay-item li {
+    display: inline-block;
+    padding-right: 10px;
+    margin:20px 0 ;
+}
+@media (max-width:767px) {
+    .bottom .pay-item li {
+        margin:20px 0 0;
+    }
+}
+.bottom .pay-item li i {
+    font-size: 27px;
+   
+}
+.bottom p a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+/*START LOGIN DIV IN MODEL*/
+.login .title-section hr {
+    color: var(--main-color);
+}
+.login form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.login form label,
+.login form input,
+.contact .card label,
+.contact .card input {
+    margin-bottom: 10px;
+}
+.login form > .btn {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+/*END LOGIN DIV IN MODEL*/
+/*START  CONRACT DIV IN PADE CONTACT.HTML*/
+.contact i {
+    color: var(--main-color);
+}
+.contact iframe {
+    width: 100%;
+    height: 100%;
+}
+.contact .card .btn {
+    margin-top: 20px;
+}
+/*END  CONRACT DIV IN PADE CONTACT.HTML*/
+/*START  COURSE DIV IN PADE COURESE.HTML*/
+.coures .skill-text {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.coures .skill-title {
+    margin-top: 10px;
+}
+.coures .skill-text img {
+    height: 200px;
+}
+.coures .skill-boot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.coures .times-course {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/*END  COURSE DIV IN PADE COURESE.HTML*/
+/*START  CARD DIV IN PADE CARD.HTML*/
+.card table input {
+    width: 60px;
+}
+.card .btn:hover {
+    color: #fff;
+}
+/*END CARD DIV IN PADE CARD.HTML*/
+/*START COURSE BODY IN PADE COURE-PIGE.HTML*/
+.single-coures .course-body .rate-item  {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*END COURSE BODY IN PADE COURE-PIGE.HTML*/
+.member .member-body {
+    border: 1px solid #ccc;
+    box-shadow: 2px 0px 2px #ccc, 0px -1px 4px #ccc;
+    padding:10px; 
+    margin-bottom: 20px;
+}
+@media (max-width:767px) {
+    .member .row {
+        flex-direction: column-reverse;
+    }
+    
+}
+.member .member-pic {
+    border: 1px dashed var(--main-color);
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.member .member-items ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.member .member-items li {
+    border-bottom: 1px solid var(--main-color);
+    padding: 10px;
+}
+.member .member-items li:last-child {
+    border: none;
+    padding: auto;
+}
